@@ -4,6 +4,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { EpiconnectsComponent } from './epiconnects/epiconnects.component';
 import { PetsComponent } from './pets/pets.component';
+import { EpiconnectsDetailComponent } from './epiconnects-detail/epiconnects-detail.component';
 
 const appRoutes: Routes = [
 
@@ -19,6 +20,10 @@ const appRoutes: Routes = [
     path: 'EpiConnects',
     component: EpiconnectsComponent
   },
+  {
+   path: 'EpiConnects/:id',
+   component: EpiconnectsDetailComponent
+ },
   {
     path: 'Pets',
     component: PetsComponent

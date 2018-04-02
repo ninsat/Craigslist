@@ -16,7 +16,7 @@ export class EpiconnectsComponent {
     new Epiconnect("Coder looking for a PARTNER, duh!", "Confident M ISO M-F partner who plays well with the keyboard. The more Atom tricks you know, the better ;-) No slackers!!", 3),
   ]
   goToDetailPage(clickedEpiconnect: Epiconnect) {
-    this.router.navigate(['EpiConnects', clickedEpiconnect.title]);
+    this.router.navigate(['EpiConnects', clickedEpiconnect.id]);
   };
 
 

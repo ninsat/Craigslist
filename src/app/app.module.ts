@@ -9,6 +9,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ForSaleComponent } from './for-sale/for-sale.component';
 import { PetsComponent } from './pets/pets.component';
 import { EpiconnectsComponent } from './epiconnects/epiconnects.component';
+import { EpiconnectsDetailComponent } from './epiconnects-detail/epiconnects-detail.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { EpiconnectsComponent } from './epiconnects/epiconnects.component';
     CategoriesComponent,
     ForSaleComponent,
     PetsComponent,
-    EpiconnectsComponent
+    EpiconnectsComponent,
+    EpiconnectsDetailComponent
   ],
   imports: [
     BrowserModule,
