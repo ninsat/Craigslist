@@ -1,5 +1,18 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">AF Town</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="Categories">Categories</a></li>
+      <li><a routerLink="EpiConnects">EpiConnects</a></li>
+      <li><a routerLink="Pets">Pets</a></li>
+    </ul>
+  </div>
+</nav>
+
+
 <div class="container">
   <h1>{{title}}</h1>
   <router-outlet></router-outlet>
-  <app-welcome></app-welcome>
 </div>

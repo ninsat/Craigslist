@@ -1,0 +1,7 @@
+<h2>Pets for men and women</h2>
+
+<div *ngFor="let pet of pets" (click)="goToDetailPage(pet)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{pet.title}}</em></h3>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<h2>Categories</h2>
+
+<div *ngFor="let category of categories" (click)="goToDetailPage(category)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em><a href="/{{category.title}}">{{category.title}}</a></em></h3>
+  </div>
+</div>

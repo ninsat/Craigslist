@@ -1,0 +1,7 @@
+<h2>EpiConnects for all ages</h2>
+
+<div *ngFor="let epiconnect of epiconnects" (click)="goToDetailPage(epiconnect)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{epiconnect.title}}</em></h3>
+  </div>
+</div>
